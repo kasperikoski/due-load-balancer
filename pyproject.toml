@@ -1,0 +1,9 @@
+[project]
+name = "due-review-spreader"
+version = "0.0.1"
+description = "Anki add-on for spreading overdue review cards over a future date range."
+requires-python = ">=3.9"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["addon"]

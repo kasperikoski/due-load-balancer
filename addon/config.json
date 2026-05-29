@@ -1,0 +1,31 @@
+{
+  "project": {
+    "display_name": "Due Load Balancer",
+    "version": "0.0.1",
+    "menu_label_override": ""
+  },
+  "ui": {
+    "language": "en",
+    "window_width": 760,
+    "window_height": 780,
+    "preview_window_width": 620,
+    "preview_window_height": 560,
+    "date_format": "%d.%m.%Y"
+  },
+  "defaults": {
+    "spread_over_days": 30,
+    "start_after_days": 1,
+    "shuffle_cards_before_spreading": false,
+    "show_only_decks_with_due_reviews": true,
+    "distribution_profile": "even",
+    "curve_strength": 1.0
+  },
+  "behavior": {
+    "confirm_before_spreading": true,
+    "include_due_today": true,
+    "max_cards_warning_threshold": 1000
+  },
+  "advanced": {
+    "review_queue_value": 2
+  }
+}
